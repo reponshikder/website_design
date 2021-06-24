@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    overflow: hidden;
+    padding: 10px 80px;
+    border-bottom: 4px solid #ff0000b0;
+    margin-top: -18px;
+}
+.brand{
+    
+color: burlywood;
+    
+font-size: 40px;
+    
+text-align: center;
+    
+font-weight: 800;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+
+/*nav*/
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: #921c1c;
+    font-size: 40px;
+    padding: 24px 50px;
+    display: block;
+    margin-top: 27px;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover {
+    background: #911515;
+    color: white;
+}
+
+/*container*/
+
+.container{
+    margin-top: 60px;
+    overflow: hidden;
+}
+.blog{
+    background: green;
+    min-height: 150px;
+    width: 60%;
+    float: left;
+}
+.Contact{
+    float: right;
+    background: red;
+    width: 40%;
+    min-height: 150px;
+}
+
+/*wapper*/
+
+.wapper{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.single{
+    min-height: 150px;
+    width: 33.33%;
+    float: left;
+}
+.yellow{
+    background: yellow;
+}
+.blue{
+    background: blue;
+}
+.black{
+    background: black;
+}
+
+/*wapper-1*/
+
+.col-1{
+    min-height: 150px;
+    width: 25%;
+    float: left;
+    
+}
+.light{
+    background: lightseagreen;
+}
+.lemon{
+    background: blueviolet;
+}
+.gray{
+    background: orangered;
+}
+.pink{
+    background: darksalmon;
+}
+
+/*col*/
+
+.col{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.col-2{
+    width: 50%;
+    min-height: 150px;
+    background: chartreuse;
+    float: right;
+}
+.col-3{
+    width: 50%;
+    min-height: 150px;
+    background: sienna;
+    float: left;
+}
+
+/*rows*/
+
+.rows{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.double{
+    float: left;
+    min-height: 150px;
+    width: 33.33%;
+}
+.col-4{
+    background: violet;
+}
+.col-5{
+    background: teal;
+}
+.col-6{
+    background: purple;
+}
+.box{
+    width: 150px;
+    height: 110px;
+    background: red;
+    padding: 50px;
+    margin: 50px;
+    border: 10px solid green;
+}
+.tutorial{
+    margin-bottom: 50px;
+}
+
+.html{
+    
+font-size: 40px;
+    
+text-decoration: none;
+    
+font-weight: bold;
+    
+margin: 100px;
+    
+color: snow;
+    
+font-style: italic;
+    
+background: linear-gradient(45deg, #000000fa, #00000012);
+    
+padding: 10px;
+}
+
+/*html_tutorial*/
+
+.background{
+    background: black;
+}
+.first{
+    text-align: center;
+}
+.second{
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 45px;
+    border-bottom: 4px ridge red;
+    padding: 5px;
+}
+.ready{
+    color: white;
+    margin-top: 60px;
+}
+h1{
+    color: red;
+}
+.header-1{
+    color: cadetblue;
+}
+.header-2{
+    color: yellow;
+}
+.header-3{
+    color: green;
+}
+.header-4{
+    color: blue;
+}
+.Profile{
+    text-decoration: none;
+    color: violet;
+    display: block;
+    margin-bottom: 25px;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+td, th{
+    border: 2px solid red;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    background-color: #dddddd6b;
+}
